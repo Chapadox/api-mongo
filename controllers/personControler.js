@@ -1,4 +1,3 @@
-import mongoose from 'mongoose';
 import persondb from '../models/person.js';
 
 async function addPerson(req, res) {
