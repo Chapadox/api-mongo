@@ -9,6 +9,6 @@ function mongoConect (app) {
       app.listen(3000);
     })
     .catch ((err) => console.log(`Erro ao conectar ao banco de dados ${err}`));
-}
+};
 
 export default mongoConect

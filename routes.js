@@ -11,5 +11,9 @@ router.post('/person', personControl.addPerson);
 
 router.get('/person', personControl.getAllPerson);
 
+router.delete('/person/:id', personControl.deletePerson);
+
+router.patch('/person/:id', personControl.updatePerson);
+
 export default router
 
